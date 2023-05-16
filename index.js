@@ -24,9 +24,5 @@ const port = process.env.PORT || 3000;
 
 // Multilevel directory
 
-const a  =[1,2]
-a[0] = 10
-a[1] = 20
-a[2] = 30
-console.log(a)
+
 httpServer.listen(port, () => console.log(`we are on http://listening on port ${port}`));
